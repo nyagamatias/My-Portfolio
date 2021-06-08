@@ -17,7 +17,9 @@ body{
     -o-background-size: cover;
     background-size: cover; */
     background:tomato;
-    background-image: url(matayo.jpg);
+    background-image: url(desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 h1{
