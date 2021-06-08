@@ -160,9 +160,12 @@ ul li a:hover{
     margin-left: 170px;
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-image: url(pool2.jpg);
+    object-fit: cover;
+    background-size: cover;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .card1:hover{
@@ -172,11 +175,22 @@ ul li a:hover{
     margin-left: 170px;
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-image: url(work.jpg);
+    object-fit: cover;
+    background-size: cover;
     align-items: center;
     text-align: center;
 }
 
 .card2:hover{
     color: blue;
+}
+.bodyeducation{
+    background-image: url(education.jpg);
+}
+.bodyhobbies{
+    background-image: url(pool2.jpg);
+}
+.bodywork{
+    background-image: url(work.jpg);
 }
