@@ -31,18 +31,18 @@ h1{
 }
 
 .background ul{
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 .background ul li{
-    float: right;
-
+    /* float: right;    */
     list-style-type: none;
     margin: 15px;
     display: flex;
 }
 ul{
     display: inline-block;
+    display: flex;
 }
 
 ul li a{
@@ -56,8 +56,8 @@ ul li a:hover{
     color: gray;
 }
 .bottom{
-    text-align: right;
-    float: right;
-    margin-bottom: ;
+    text-align: center;
+    float: center;
+    margin-bottom: 0px;
 
 }
