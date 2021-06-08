@@ -86,7 +86,6 @@ ul li a{
     color: white;
     text-decoration: none;
     padding: 5px 20px;
-    border: 1px solid white;
 }
 
 ul li a:hover{
@@ -152,5 +151,30 @@ ul li a:hover{
 }
 
 .card:hover{
+    color: blue;
+    transform: rotate(-360deg);
+}
+.card1{
+    margin-left: 170px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+}
+
+.card1:hover{
+    color: blue;
+}
+.card2{
+    margin-left: 170px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+}
+
+.card2:hover{
     color: blue;
 }
