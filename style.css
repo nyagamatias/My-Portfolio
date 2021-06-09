@@ -109,8 +109,9 @@ ul li a:hover{
 }
 .contacts{
     margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px; 
+    margin-right: 150px;
+    margin-top: 50px;
+    text-align: center;
 }
 .contacts ul{
     display: block;
@@ -193,4 +194,15 @@ ul li a:hover{
 }
 .bodywork{
     background-image: url(work.jpg);
+}
+.hobbies{
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.projects{
+    text-align: center;
+}
+.projects h2:hover{
+    color: blue;
 }
