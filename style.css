@@ -35,16 +35,18 @@ h1{
 .background0 ul{
     display: block;
     border-spacing: 20px;
-    text-align: center;
+    text-align: right;
+    margin-top: 50px;
 }
 
 .background0 ul li{
-    /* float: right;    */
+    /* float: right;   */
     list-style-type: none;
     margin: 15px;
     display: block;
     font-size: 30px; 
     text-align: center;
+    margin-right: 30px;
 }
 
 .background1 ul{
@@ -93,18 +95,17 @@ ul li a:hover{
 .bottom{
     text-align: center;
     float: right;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    margin-top: 150px;
-
+    margin-right: 15px;
+    margin-bottom: 70px;
 }
 .introduction{
     text-align: center;
     font-style: normal;
     font-size: 40px;
     color: white;
-    float: none;
-    margin-top: 0px;
+    float: right;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .contacts{
     margin-left: 50px;
@@ -154,7 +155,7 @@ ul li a:hover{
 }
 
 .card:hover{
-    color: blue;
+    color: lightskyblue;
     transform: rotate(-360deg);
 }
 .card1{
@@ -170,7 +171,7 @@ ul li a:hover{
 }
 
 .card1:hover{
-    color: blue;
+    color: lightskyblue;
 }
 .card2{
     margin-left: 170px;
@@ -184,7 +185,7 @@ ul li a:hover{
 }
 
 .card2:hover{
-    color: blue;
+    color: lightskyblue;
 }
 .bodyeducation{
     background-image: url(education.jpg);
@@ -550,4 +551,15 @@ ul li a:hover{
 .about{
     font-size: 20px;
     text-align: center;
+}
+.cardbody{
+    margin-left: 40px;
+    width: 400px;
+    height: 550px;
+    background-image: url(mypicture.jpg);
+    object-fit: cover;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
 }
